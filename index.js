@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 
-// For defecto el usuario no tiene el acceso permitido
+// Por defecto el usuario no tiene el acceso permitido
 var userCanAccess = false;
 
 // Para obtener la información del formulario
